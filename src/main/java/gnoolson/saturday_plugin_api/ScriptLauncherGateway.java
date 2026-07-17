@@ -4,6 +4,6 @@ import java.util.Map;
 
 public interface ScriptLauncherGateway {
 
-    void execute(String projectId, String scriptId, Map<String, Object> args);
+    void execute(String scriptId, Map<String, Object> args);
 
 }
